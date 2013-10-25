@@ -1,5 +1,6 @@
 .bundle
 .DS_Store
+config/twilio.yml
 config/database.yml
 db/*.sqlite3
 db/*.sqlite
