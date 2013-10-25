@@ -1,17 +1,179 @@
 .container {
-  margin: 20px auto;
+  margin: 300px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
   border: 7px solid #999;
   background-color: #FFF;
-  border-radius: 5px;
+  border-radius: 100px;
+  opacity: 0.7;
 
+  background-image: linear-gradient(bottom, rgb(209,209,209) 14%, rgb(106,181,114) 57%, rgb(161,194,194) 79%);
+  background-image: -o-linear-gradient(bottom, rgb(209,209,209) 14%, rgb(106,181,114) 57%, rgb(161,194,194) 79%);
+  background-image: -moz-linear-gradient(bottom, rgb(209,209,209) 14%, rgb(106,181,114) 57%, rgb(161,194,194) 79%);
+  background-image: -webkit-linear-gradient(bottom, rgb(209,209,209) 14%, rgb(106,181,114) 57%, rgb(161,194,194) 79%);
+  background-image: -ms-linear-gradient(bottom, rgb(209,209,209) 14%, rgb(106,181,114) 57%, rgb(161,194,194) 79%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.14, rgb(209,209,209)),
+    color-stop(0.57, rgb(106,181,114)),
+    color-stop(0.79, rgb(161,194,194))
+  );
 }
 th {
   text-align: left;
 }
+
 html {
-background: url('/hackers.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background: url('/hackers.jpg') no-repeat center center fixed;
+  -wekbit-background-size: cover;
   background-size: cover;
+}
+
+.removeVar {
+  -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+  background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+  background-color:#ff5bb0;
+  -webkit-border-top-left-radius:37px;
+  -moz-border-radius-topleft:37px;
+  border-top-left-radius:37px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:37px;
+  -moz-border-radius-bottomright:37px;
+  border-bottom-right-radius:37px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1pxo solid #ee1eb5;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:65px;
+  line-height:65px;
+  width:131px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #c70067;
+}
+.removeVar:hover {
+  background:o-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+  background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+  background-color:#ef027d;
+}
+.removeVar:active {
+  position:relative;
+  top:1px;
+}
+
+
+#addVar {
+  -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+  background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+  background-color:#ff5bb0;
+  -webkit-border-top-left-radius:37px;
+  -moz-border-radius-topleft:37px;
+  border-top-left-radius:37px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-fontbottom-right-radius:37px;
+  -moz-border-radius-bottomright:37px;
+  border-bottom-right-radius:37px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1px solid #ee1eb5;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:65px;
+  line-height:65px;
+  width:131px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #c70067;
+}
+#addVar:hover {
+  background:o-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+  background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+  background-color:#ef027d;
+}
+#addVar:active {
+  position:relative;
+  top:1px;
+}
+
+
+#text_button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+  background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+  background-color:#ff5bb0;
+  -webkit-border-top-left-radius:37px;
+  -moz-border-radius-topleft:37px;
+  border-top-left-radius:37px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:37px;
+  -moz-border-radius-bottomright:37px;
+  border-bottom-right-radius:37px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1px solid #ee1eb5;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:65px;
+  line-height:65px;
+  width:131px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #c70067;
+}
+#text_button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+  background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+  background-color:#ef027d;
+}
+#text_button:active {
+  position:relative;
+  top:1px;
+}
+
+h1 {
+  font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
 }

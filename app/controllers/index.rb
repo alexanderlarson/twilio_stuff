@@ -12,15 +12,18 @@ get '/' do
 end
 
 post '/' do
+  # binding.pry
   account_sid = "AC2a14300af31eaecd5c1d96bb4b5058f2"
   auth_token = "a19559a0005f6389cc3b7ed1b76658d1"
 
   @client = Twilio::REST::Client.new account_sid, auth_token
 
   # binding.pry
-
-  @client.account.messages.create(:from => "16306570372", :to => params[:to], :body => params[:message])
-
+  params[:phone].each do |key, value|
+    if value != ""
+      @client.account.messages.create(:from => "16306570372", :to => value, :body => params[:message])
+    end
+  end
   redirect '/'
 end
 
