@@ -15,9 +15,14 @@ require 'pg'
 require 'active_record'
 require 'logger'
 require 'twilio-ruby'
+require 'pry'
+
+require 'compass'
 
 require 'sinatra'
 require "sinatra/reloader" if development?
+
+require 'haml'
 
 require 'erb'
 
@@ -39,7 +44,7 @@ env_config.each do |key, value|
   ENV[key] = value
 end
 
-Twilio.configure do |config|
-  config.consumer_id = ENV['accountsid']
-  config.consumer_token = ENV['authtoken']
-end
+# Twilio.configure do |config|
+#   config.consumer_id = ENV['accountsid']
+#   config.consumer_token = ENV['authtoken']
+# end

@@ -17,7 +17,12 @@ gem 'activerecord'
 
 gem 'rake'
 
+gem 'pry'
+
 gem 'shotgun'
+
+gem 'compass'
+gem 'haml'
 
 group :test do
   gem 'faker'

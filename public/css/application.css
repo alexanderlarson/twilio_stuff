@@ -2,8 +2,16 @@
   margin: 20px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  border: 7px solid #999;
+  background-color: #FFF;
+  border-radius: 5px;
+
 }
 th {
   text-align: left;
+}
+html {
+background: url('/text.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
